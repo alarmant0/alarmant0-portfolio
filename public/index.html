@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>alarmant0 | Portfolio</title>
+    <link rel="icon" href="./assets/icon/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-900 text-gray-100">
+
+    <div class="max-w-3xl mx-auto w-full px-4">
+
+        <!-- Home Section -->
+        <section id="home">
+            <!-- Navbar -->
+            <nav class="flex justify-center py-4">
+                <ul class="flex flex-wrap gap-6 text-gray-100">
+                    <li><a href="/home" class="hover:underline">Home</a></li>
+                    <li><a href="/work" class="hover:underline">Work</a></li>
+                    <li><a href="/projects" class="hover:underline">Projects</a></li>
+                    <li><a href="/about" class="hover:underline">About</a></li>
+                    <li><a href="#Resume" class="hover:underline" target="_blank">Resume</a></li>
+                </ul>
+            </nav>
+
+            <!-- Presentation -->
+            <div class="rounded p-6 my-6">
+                <h1 class="text-3xl font-bold mb-4">Hey, I'm David Pinheiro👋</h1>
+                <p class="mb-2">I'm a Computer Science student at Instituto Superior Técnico. I am currently working at Cloudflare as Red Team Engineer intern, where I use my knowledge to test Cloudflare's products.</p>
+                <p>View my résumé <a href="./assets/CV/CV - David_Pinheiro.pdf" class="text-blue-400 font-semibold underline">here</a></p>
+            </div>
+            <section id="photos" class="my-6 text-center">
+                <img src="./assets/photos/Photos.png" alt="Photo Gallery" class="img-fluid rounded shadow-lg" style="max-width: 100%; height: auto;">
+            </section>
+            <!-- About Me -->
+            <div class="rounded p-6 my-6">
+                <p class="mb-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit obcaecati minima iste tenetur cumque aspernatur itaque eius, labore maxime, deserunt beatae. Facere, rem. Iste natus et unde eaque laudantium quae!</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae minus quod recusandae dignissimos tenetur itaque, earum alias repellendus fuga laudantium suscipit, maiores harum doloribus officia facilis, doloremque aspernatur exercitationem consequatur.</p>
+            </div>
+
+            <!-- Contact Button -->
+            <div class="text-center my-6">
+                <a href="mailto:davidpinheirombp57@gmail.com" class="bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-6 rounded transition">
+                    Contact Me
+                </a>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="Projects" class="rounded p-6 my-6">
+            <h2 class="text-2xl font-bold mb-4">Projects</h2>
+            <p class="mb-2">Here are some of the projects I have worked on:</p>
+            <hr class="border-gray-600 mb-4" />
+
+            <ul class="space-y-4">
+                <li class="flex justify-between items-center group">
+                    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit...</span>
+                    <a href="https://github.com/alarmant0/AutoAttendanceLeonardDeVinciUniversity" 
+                       target="_blank"
+                       class="text-blue-400 font-semibold opacity-0 group-hover:opacity-100 transition">
+                        View Project →
+                    </a>
+                </li>
+                <li class="flex justify-between items-center group">
+                    <span>Simple Onion Router Network - A simple implementation...</span>
+                    <a href="https://github.com/alarmant0/Simple-onion-router-network" 
+                       target="_blank"
+                       class="text-blue-400 font-semibold opacity-0 group-hover:opacity-100 transition">
+                        View Project →
+                    </a>
+                </li>
+                <li class="flex justify-between items-center group">
+                    <span>Space Invaders AI - An AI that plays...</span>
+                    <a href="https://github.com/alarmant0/Space-Invaders-AI" 
+                       target="_blank"
+                       class="text-blue-400 font-semibold opacity-0 group-hover:opacity-100 transition">
+                        View Project →
+                    </a>
+                </li>
+                <li class="flex justify-between items-center group">
+                    <span>Event Queue Application - A Java application...</span>
+                    <a href="https://github.com/alarmant0/Event-queue-application" 
+                       target="_blank"
+                       class="text-blue-400 font-semibold opacity-0 group-hover:opacity-100 transition">
+                        View Project →
+                    </a>
+                </li>
+            </ul>
+
+            <!-- View All Projects Button -->
+            <div class="text-center mt-6">
+                <a href="https://github.com/alarmant0" target="_blank" class="border border-blue-400 text-blue-400 py-2 px-6 rounded hover:bg-blue-400 hover:text-gray-900 transition">
+                    View All Projects
+                </a>
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="max-w-3xl mx-auto px-4 pt-10 pb-6 mt-10 border-t border-gray-700">
+        <div class="flex flex-wrap justify-center sm:justify-start gap-4 mb-4">
+            <a href="#about" class="text-gray-100 hover:underline">About Me</a>
+            <a href="#Projects" class="text-gray-100 hover:underline">Projects</a>
+            <a href="./assets/CV/CV - David_Pinheiro.pdf" target="_blank" class="text-gray-100 hover:underline">Résumé</a>
+            <a href="mailto:davidpinheirombp57@gmail.com" class="text-gray-100 hover:underline">Contact</a>
+        </div>
+
+        <div class="flex flex-col sm:flex-row justify-between items-center border-t border-gray-700 pt-4">
+            <div class="flex flex-wrap gap-3 mb-3 sm:mb-0">
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" class="text-gray-100 text-sm hover:underline">LinkedIn</a>
+                <a href="https://github.com/alarmant0" target="_blank" class="text-gray-100 text-sm hover:underline">GitHub</a>
+                <a href="https://medium.com/@yourusername" target="_blank" class="text-gray-100 text-sm hover:underline">Medium</a>
+                <a href="https://huggingface.co/yourprofile" target="_blank" class="text-gray-100 text-sm hover:underline">Hugging Face</a>
+            </div>
+
+            <p class="text-gray-400 text-sm">
+                © 2025 <a href="/" class="hover:underline text-gray-100">David Pinheiro’s Portfolio</a>. All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>

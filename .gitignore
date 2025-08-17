@@ -165,3 +165,7 @@ dist
 .env*
 !.env.example
 .wrangler/
+
+# Vscode workspace files
+.vscode/    
+alarmant0-portfolio.code-workspace

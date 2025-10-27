@@ -12,7 +12,7 @@ export default {
       "/home": "/index.html",
       "/work": "/work/work.html",
       "/projects": "/projects.html",
-      "/cv": "/assets/cv/CV_DavidPinheiro.pdf",
+      "/DavidPinheiro-Resume.pdf": "/resume/DavidPinheiro-Resume.pdf",
     };
 
     if (ROUTES[path]) {
